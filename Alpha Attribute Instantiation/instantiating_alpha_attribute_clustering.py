@@ -19,7 +19,6 @@ import os
 from pm4py.objects.conversion.log import converter as log_converter
 import gzip
 import shutil
-
 def optimal_k(X, max_clusters):
     wcss = []
     for k in range(1, max_clusters+1):
