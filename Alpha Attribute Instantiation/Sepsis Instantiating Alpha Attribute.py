@@ -17,7 +17,6 @@ from sklearn.metrics import silhouette_score
 from sklearn.preprocessing import StandardScaler
 from pm4py.objects.log.log import EventLog
 ## Importing log
-Importing event log of Sepsis
 
 
 # Importing a XES event log
@@ -41,7 +40,6 @@ dataframe =dataframe[['case:concept:name','concept:name']]
 dataframe
 ### Making np_array from Dataframe and grouping them on the basis of case identifier
 
-Events in each trace of the complete event log.
 np_arr = np.array(dataframe)
 n = np.unique(np_arr[:,0])
 events = np.array( [(np_arr[np_arr[:,0]==i,1]) for i in n] )
@@ -147,8 +145,7 @@ pm4py.write_xes(sub_log9, 'sepsis_sublogs/sublog9.xes')
 pm4py.write_xes(sub_log10, 'sepsis_sublogs/sublog10.xes')
 
 #pm4py.write_xes(sub_log4, 'Sublogs - Kmeans- Set of activities - PCA/sublog4.xes')
-## PCA - Dimension Reduction. 
-Transforming data in to 3 dimensional data.
+## PCA - Dimension Reduction.
 merged.shape
 pca = PCA(n_components=3)
 pca.fit(merged)
