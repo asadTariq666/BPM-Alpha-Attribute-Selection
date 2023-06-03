@@ -38,8 +38,6 @@ activity = 'concept:name'
 # Redundant activities i.e. Activities existing more than once in a trace
 activities_array = []
 
-
-
 # Setting parameters for clustering method
 
 n_init_km=10
