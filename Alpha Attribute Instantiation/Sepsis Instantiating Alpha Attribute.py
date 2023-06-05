@@ -228,10 +228,6 @@ plt.ylabel('within_cluster_sum_of_squares') #within cluster sum of squares
 plt.show()
 
 
-
-
-
-
 kmeans = KMeans(
         init="k-means++",
         n_clusters=8,
