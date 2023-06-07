@@ -10,3 +10,4 @@ The case study (PAH) is not publicly available; MIMIC is semi-publicly available
 2. Set path of the dataset correctly in the python script.
 3. Execute the python script - "2. Alpha Attribute Extraction Sepsis.py".
 4. Execute the python script - "2. Alpha Attribute Instantiation Sepsis.py".
+5. Execute VPC scripts in "Visual-Process-Comparator--main" for visual comparison.
