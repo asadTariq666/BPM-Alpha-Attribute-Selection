@@ -2,7 +2,7 @@
 Repository containing python scripts to extract and instantiate alpha attributes.
 
 ## Important!
-The case study (PAH) is not publicly available; MIMIC is semi-publicly available, but we cannot re-publish it, and Sepsis is publicly available.
+The case study (PAH) is not publicly available; MIMIC is semi-publicly available(https://physionet.org/content/mimicel-ed/2.0.0/), but we cannot re-publish it, and Sepsis is publicly available.
 
 
 ## Steps to reproduce Results for SEPSIS
