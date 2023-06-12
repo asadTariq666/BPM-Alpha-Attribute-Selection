@@ -235,7 +235,6 @@ kmeans = KMeans(
         random_state=42
     )
 km = kmeans.fit(descriptive_features_normailsed)
-
 already_seen = {}
 labels = km.labels_
 clusters = []
