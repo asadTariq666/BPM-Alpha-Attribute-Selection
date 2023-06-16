@@ -226,7 +226,6 @@ plt.title('The elbow method')
 plt.xlabel('Number of clusters')
 plt.ylabel('within_cluster_sum_of_squares') #within cluster sum of squares
 plt.show()
-
 kmeans = KMeans(
         init="k-means++",
         n_clusters=8,
@@ -238,7 +237,6 @@ km = kmeans.fit(descriptive_features_normailsed)
 already_seen = {}
 labels = km.labels_
 clusters = []
-
 for i in range(len(log)):
         if not labels[i] in already_seen:
             already_seen[labels[i]] = len(list(already_seen.keys()))
