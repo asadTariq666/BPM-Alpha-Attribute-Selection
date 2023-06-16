@@ -243,7 +243,6 @@ for i in range(len(log)):
             clusters.append(EventLog())
         trace = log[i]
         clusters[already_seen[labels[i]]].append(trace)
-
 type(clusters[0]),len(clusters[0]),len(clusters[1]),len(clusters[2]),len(clusters[3]),len(clusters[4]),len(clusters[5]),len(clusters[6]),len(clusters[7])
 sub_log1 = clusters[0]
 sub_log2 = clusters[1]
